@@ -3,9 +3,6 @@ const PangramFinder = function (phrase) {
   this.phrase = phrase.split('');
 }
 
-PangramFinder.prototype.sortPhrase = function (phrase) {
-
-};
 PangramFinder.prototype.isPangram = function () {
   // const stringArray =
   const phraseSpacesFilteredOut = this.phrase.filter((letter) => {
